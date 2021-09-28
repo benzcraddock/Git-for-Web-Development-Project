@@ -85,3 +85,17 @@ https://codepen.io/benzcraddock/pen/KKqJwrE
 -> git push -u origin branch-name to push commits from local pc to github remote cloud.
 -> submit a pull request on github and make sure you select your name-branch and not the original repo.
 -> switch base repository to the forked repo and create pull request.
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+-> block element always starts on a new line (div), while an inline element does not start on a new line (span).
+2. What happens when an element is positioned absolutely?
+-> opposite of relatively positioned elements - absolutely positioned elements are taken out of the flow, and other elements are positioned as if they dont exist.
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+-> use display: flex; and set width to a fixed amount
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+-> display block (p, ol and ul), display inline (span and img) and inline-block (li).
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+-> The box model consists of margins, border, padding and content, and is used for design and layout of a web page.
+-> The fix for the box model is that we should set the width and height of the content area when setting these properties of an element, but also add padding, borders, and margins.
